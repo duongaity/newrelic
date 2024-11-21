@@ -1,0 +1,330 @@
+2024-11-18T13:47:31,971+0700 [78608 1] com.newrelic INFO: Writing to New Relic log file: /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/libs/logs/newrelic_agent.log
+2024-11-18T13:47:31,972+0700 [78608 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 21.0.4
+2024-11-18T13:47:31,972+0700 [78608 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-11-18T13:47:31,972+0700 [78608 1] com.newrelic INFO: OS Mac OS X version 15.1 arch aarch64
+2024-11-18T13:47:31,972+0700 [78608 1] com.newrelic INFO: Agent Host: Duongs-MacBook-Pro.local IP: 127.0.0.1
+2024-11-18T13:47:31,972+0700 [78608 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-18T13:47:32,281+0700 [78608 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-18T13:47:32,862+0700 [78608 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-18T13:47:32,998+0700 [78608 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-18T13:47:33,049+0700 [78608 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-18T13:47:33,058+0700 [78608 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/newrelic.yml
+2024-11-18T13:47:33,060+0700 [78608 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-18T13:47:33,060+0700 [78608 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1b4fb997
+2024-11-18T13:47:33,060+0700 [78608 1] com.newrelic INFO: Premain startup complete in 1,569ms
+2024-11-18T13:47:33,061+0700 [78608 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-18T13:47:34,628+0700 [78608 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-18T13:47:38,074+0700 [78608 54] com.newrelic INFO: Host name is Duongs-MacBook-Pro.local, display host Duongs-MacBook-Pro.local for application my-newrelic-2024
+2024-11-18T13:47:38,076+0700 [78608 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T13:47:39,028+0700 [78608 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-18T13:47:40,476+0700 [78608 54] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-18T13:47:40,476+0700 [78608 54] com.newrelic INFO: Agent run id: BSmF37zwcDS_ABqd7T1_nQtnOuNcAAIBAAAnIQEAATMQAgQ9gF8aAwAGOC4xNi4wABhEdW9uZ3MtTWFjQm9vay1Qcm8ubG9jYWwAEG15LW5ld3JlbGljLTIwMjQ
+2024-11-18T13:47:40,477+0700 [78608 54] com.newrelic INFO: Agent 78608@Duongs-MacBook-Pro.local/my-newrelic-2024 connected to collector.newrelic.com:443
+2024-11-18T13:47:40,477+0700 [78608 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1744365/applications/1031823130
+2024-11-18T13:47:40,484+0700 [78608 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T13:47:40,484+0700 [78608 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T13:47:40,484+0700 [78608 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T13:47:40,485+0700 [78608 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T13:47:40,486+0700 [78608 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T13:47:40,486+0700 [78608 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T13:47:40,486+0700 [78608 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T13:47:40,489+0700 [78608 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T13:47:41,077+0700 [78608 54] com.newrelic INFO: Real user monitoring is enabled for application my-newrelic-2024. Auto instrumentation is enabled.
+2024-11-18T13:47:41,077+0700 [78608 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:22:04,913+0700 [78608 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-18T14:22:04,938+0700 [78608 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@d960388 tried to finish but ServiceManager not started
+2024-11-18T14:22:27,133+0700 [78837 1] com.newrelic INFO: Writing to New Relic log file: /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/libs/logs/newrelic_agent.log
+2024-11-18T14:22:27,134+0700 [78837 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 21.0.4
+2024-11-18T14:22:27,134+0700 [78837 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-11-18T14:22:27,134+0700 [78837 1] com.newrelic INFO: OS Mac OS X version 15.1 arch aarch64
+2024-11-18T14:22:27,134+0700 [78837 1] com.newrelic INFO: Agent Host: Duongs-MacBook-Pro.local IP: 127.0.0.1
+2024-11-18T14:22:27,134+0700 [78837 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-18T14:22:27,401+0700 [78837 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-18T14:22:28,082+0700 [78837 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-18T14:22:28,196+0700 [78837 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-18T14:22:28,246+0700 [78837 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-18T14:22:28,256+0700 [78837 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/newrelic.yml
+2024-11-18T14:22:28,258+0700 [78837 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-18T14:22:28,258+0700 [78837 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1b4fb997
+2024-11-18T14:22:28,258+0700 [78837 1] com.newrelic INFO: Premain startup complete in 1,581ms
+2024-11-18T14:22:28,258+0700 [78837 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-18T14:22:29,726+0700 [78837 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-18T14:22:33,278+0700 [78837 54] com.newrelic INFO: Host name is Duongs-MacBook-Pro.local, display host Duongs-MacBook-Pro.local for application my-newrelic-2024
+2024-11-18T14:22:33,281+0700 [78837 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:22:34,736+0700 [78837 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-18T14:22:36,317+0700 [78837 54] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-18T14:22:36,317+0700 [78837 54] com.newrelic INFO: Agent run id: BbYUdJbTUyJzABqd7T1_nQtnOuuQAAIBAAAnIQEAATP1AgQ9gF8aAwAGOC4xNi4wABhEdW9uZ3MtTWFjQm9vay1Qcm8ubG9jYWwAEG15LW5ld3JlbGljLTIwMjQ
+2024-11-18T14:22:36,321+0700 [78837 54] com.newrelic INFO: Agent 78837@Duongs-MacBook-Pro.local/my-newrelic-2024 connected to collector.newrelic.com:443
+2024-11-18T14:22:36,322+0700 [78837 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1744365/applications/1031823130
+2024-11-18T14:22:36,325+0700 [78837 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:22:36,325+0700 [78837 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:22:36,325+0700 [78837 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:22:36,327+0700 [78837 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:22:36,328+0700 [78837 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:22:36,329+0700 [78837 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:22:36,329+0700 [78837 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:22:36,331+0700 [78837 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:22:36,799+0700 [78837 54] com.newrelic INFO: Real user monitoring is enabled for application my-newrelic-2024. Auto instrumentation is enabled.
+2024-11-18T14:22:36,801+0700 [78837 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:23:03,602+0700 [78608 77] com.newrelic INFO: Remote get_agent_commands call failed : java.net.SocketTimeoutException: Read timed out.
+2024-11-18T14:23:05,174+0700 [78608 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-11-18T14:23:58,057+0700 [78837 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-18T14:23:58,993+0700 [78837 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-11-18T14:24:03,499+0700 [78873 1] com.newrelic INFO: Writing to New Relic log file: /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/libs/logs/newrelic_agent.log
+2024-11-18T14:24:03,499+0700 [78873 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 21.0.4
+2024-11-18T14:24:03,499+0700 [78873 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-11-18T14:24:03,499+0700 [78873 1] com.newrelic INFO: OS Mac OS X version 15.1 arch aarch64
+2024-11-18T14:24:03,499+0700 [78873 1] com.newrelic INFO: Agent Host: Duongs-MacBook-Pro.local IP: 127.0.0.1
+2024-11-18T14:24:03,499+0700 [78873 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-18T14:24:03,769+0700 [78873 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-18T14:24:04,307+0700 [78873 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-18T14:24:04,446+0700 [78873 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-18T14:24:04,505+0700 [78873 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-18T14:24:04,517+0700 [78873 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/newrelic.yml
+2024-11-18T14:24:04,519+0700 [78873 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-18T14:24:04,519+0700 [78873 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1b4fb997
+2024-11-18T14:24:04,519+0700 [78873 1] com.newrelic INFO: Premain startup complete in 1,476ms
+2024-11-18T14:24:04,521+0700 [78873 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-18T14:24:06,458+0700 [78873 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-18T14:24:09,540+0700 [78873 54] com.newrelic INFO: Host name is Duongs-MacBook-Pro.local, display host Duongs-MacBook-Pro.local for application my-newrelic-2024
+2024-11-18T14:24:09,542+0700 [78873 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:24:11,255+0700 [78873 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-18T14:24:12,106+0700 [78873 54] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-18T14:24:12,106+0700 [78873 54] com.newrelic INFO: Agent run id: BX5YucnVATaOABqd7T1_nQtnOuwIAAIBAAAnIQEAATQZAgQ9gF8aAwAGOC4xNi4wABhEdW9uZ3MtTWFjQm9vay1Qcm8ubG9jYWwAEG15LW5ld3JlbGljLTIwMjQ
+2024-11-18T14:24:12,106+0700 [78873 54] com.newrelic INFO: Agent 78873@Duongs-MacBook-Pro.local/my-newrelic-2024 connected to collector.newrelic.com:443
+2024-11-18T14:24:12,106+0700 [78873 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1744365/applications/1031823130
+2024-11-18T14:24:12,108+0700 [78873 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:24:12,108+0700 [78873 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:24:12,108+0700 [78873 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:24:12,108+0700 [78873 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:24:12,109+0700 [78873 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:24:12,109+0700 [78873 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:24:12,109+0700 [78873 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:24:12,110+0700 [78873 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:24:12,873+0700 [78873 54] com.newrelic INFO: Real user monitoring is enabled for application my-newrelic-2024. Auto instrumentation is enabled.
+2024-11-18T14:24:12,875+0700 [78873 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:31:51,144+0700 [78873 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-18T14:31:51,173+0700 [78873 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@18b310e0 tried to finish but ServiceManager not started
+2024-11-18T14:31:51,771+0700 [78873 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-11-18T14:32:04,743+0700 [79020 1] com.newrelic INFO: Writing to New Relic log file: /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/libs/logs/newrelic_agent.log
+2024-11-18T14:32:04,743+0700 [79020 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 21.0.4
+2024-11-18T14:32:04,743+0700 [79020 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-11-18T14:32:04,743+0700 [79020 1] com.newrelic INFO: OS Mac OS X version 15.1 arch aarch64
+2024-11-18T14:32:04,743+0700 [79020 1] com.newrelic INFO: Agent Host: Duongs-MacBook-Pro.local IP: 127.0.0.1
+2024-11-18T14:32:04,744+0700 [79020 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-18T14:32:05,015+0700 [79020 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-18T14:32:05,612+0700 [79020 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-18T14:32:05,741+0700 [79020 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-18T14:32:05,791+0700 [79020 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-18T14:32:05,801+0700 [79020 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/newrelic.yml
+2024-11-18T14:32:05,803+0700 [79020 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-18T14:32:05,803+0700 [79020 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1b4fb997
+2024-11-18T14:32:05,803+0700 [79020 1] com.newrelic INFO: Premain startup complete in 1,559ms
+2024-11-18T14:32:05,804+0700 [79020 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-18T14:32:07,350+0700 [79020 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-18T14:32:10,819+0700 [79020 54] com.newrelic INFO: Host name is Duongs-MacBook-Pro.local, display host Duongs-MacBook-Pro.local for application my-newrelic-2024
+2024-11-18T14:32:10,825+0700 [79020 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:32:12,044+0700 [79020 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-18T14:32:12,592+0700 [79020 54] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-18T14:32:12,592+0700 [79020 54] com.newrelic INFO: Agent run id: BTJssu_9l9pyABqd7T1_nQtnOu3oAAIBAAAnIQEAATSsAgQ9gF8aAwAGOC4xNi4wABhEdW9uZ3MtTWFjQm9vay1Qcm8ubG9jYWwAEG15LW5ld3JlbGljLTIwMjQ
+2024-11-18T14:32:12,592+0700 [79020 54] com.newrelic INFO: Agent 79020@Duongs-MacBook-Pro.local/my-newrelic-2024 connected to collector.newrelic.com:443
+2024-11-18T14:32:12,592+0700 [79020 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1744365/applications/1031823130
+2024-11-18T14:32:12,594+0700 [79020 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:32:12,594+0700 [79020 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:32:12,594+0700 [79020 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:32:12,595+0700 [79020 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:32:12,596+0700 [79020 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:32:12,596+0700 [79020 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:32:12,596+0700 [79020 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:32:12,598+0700 [79020 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:32:13,193+0700 [79020 54] com.newrelic INFO: Real user monitoring is enabled for application my-newrelic-2024. Auto instrumentation is enabled.
+2024-11-18T14:32:13,194+0700 [79020 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:39:21,898+0700 [79020 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-18T14:39:21,930+0700 [79020 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@3d19cc34 tried to finish but ServiceManager not started
+2024-11-18T14:39:22,767+0700 [79020 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-11-18T14:40:07,436+0700 [79121 1] com.newrelic INFO: Writing to New Relic log file: /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/libs/logs/newrelic_agent.log
+2024-11-18T14:40:07,436+0700 [79121 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 21.0.4
+2024-11-18T14:40:07,436+0700 [79121 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-11-18T14:40:07,436+0700 [79121 1] com.newrelic INFO: OS Mac OS X version 15.1 arch aarch64
+2024-11-18T14:40:07,436+0700 [79121 1] com.newrelic INFO: Agent Host: Duongs-MacBook-Pro.local IP: 127.0.0.1
+2024-11-18T14:40:07,436+0700 [79121 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-18T14:40:07,708+0700 [79121 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-18T14:40:08,463+0700 [79121 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-18T14:40:08,577+0700 [79121 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-18T14:40:08,628+0700 [79121 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-18T14:40:08,638+0700 [79121 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/newrelic.yml
+2024-11-18T14:40:08,640+0700 [79121 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-18T14:40:08,640+0700 [79121 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1b4fb997
+2024-11-18T14:40:08,640+0700 [79121 1] com.newrelic INFO: Premain startup complete in 1,657ms
+2024-11-18T14:40:08,641+0700 [79121 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-18T14:40:10,368+0700 [79121 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-18T14:40:13,653+0700 [79121 54] com.newrelic INFO: Host name is Duongs-MacBook-Pro.local, display host Duongs-MacBook-Pro.local for application my-newrelic-2024
+2024-11-18T14:40:13,655+0700 [79121 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:40:15,275+0700 [79121 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-18T14:40:15,909+0700 [79121 54] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-18T14:40:15,909+0700 [79121 54] com.newrelic INFO: Agent run id: BVSkWQz3Z_FZABqd7T1_nQtnOu_IAAIBAAAnIQEAATURAgQ9gF8aAwAGOC4xNi4wABhEdW9uZ3MtTWFjQm9vay1Qcm8ubG9jYWwAEG15LW5ld3JlbGljLTIwMjQ
+2024-11-18T14:40:15,909+0700 [79121 54] com.newrelic INFO: Agent 79121@Duongs-MacBook-Pro.local/my-newrelic-2024 connected to collector.newrelic.com:443
+2024-11-18T14:40:15,909+0700 [79121 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1744365/applications/1031823130
+2024-11-18T14:40:15,911+0700 [79121 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:40:15,911+0700 [79121 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:40:15,911+0700 [79121 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:40:15,912+0700 [79121 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:40:15,913+0700 [79121 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:40:15,913+0700 [79121 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:40:15,913+0700 [79121 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:40:15,915+0700 [79121 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:40:16,503+0700 [79121 54] com.newrelic INFO: Real user monitoring is enabled for application my-newrelic-2024. Auto instrumentation is enabled.
+2024-11-18T14:40:16,504+0700 [79121 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:47:08,528+0700 [79121 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-18T14:47:09,095+0700 [79121 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-11-18T14:47:14,952+0700 [79196 1] com.newrelic INFO: Writing to New Relic log file: /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/libs/logs/newrelic_agent.log
+2024-11-18T14:47:14,952+0700 [79196 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 21.0.4
+2024-11-18T14:47:14,952+0700 [79196 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-11-18T14:47:14,952+0700 [79196 1] com.newrelic INFO: OS Mac OS X version 15.1 arch aarch64
+2024-11-18T14:47:14,952+0700 [79196 1] com.newrelic INFO: Agent Host: Duongs-MacBook-Pro.local IP: 127.0.0.1
+2024-11-18T14:47:14,953+0700 [79196 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-18T14:47:15,233+0700 [79196 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-18T14:47:15,695+0700 [79196 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-18T14:47:15,830+0700 [79196 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-18T14:47:15,885+0700 [79196 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-18T14:47:15,895+0700 [79196 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/newrelic.yml
+2024-11-18T14:47:15,897+0700 [79196 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-18T14:47:15,897+0700 [79196 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1b4fb997
+2024-11-18T14:47:15,897+0700 [79196 1] com.newrelic INFO: Premain startup complete in 1,405ms
+2024-11-18T14:47:15,898+0700 [79196 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-18T14:47:17,655+0700 [79196 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-18T14:47:20,903+0700 [79196 54] com.newrelic INFO: Host name is Duongs-MacBook-Pro.local, display host Duongs-MacBook-Pro.local for application my-newrelic-2024
+2024-11-18T14:47:20,904+0700 [79196 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T14:47:22,271+0700 [79196 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-18T14:47:23,538+0700 [79196 54] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-18T14:47:23,538+0700 [79196 54] com.newrelic INFO: Agent run id: BbxhTPipbQc9ABqd7T1_nQtnOvFsAAIBAAAnIQEAATVcAgQ9gF8aAwAGOC4xNi4wABhEdW9uZ3MtTWFjQm9vay1Qcm8ubG9jYWwAEG15LW5ld3JlbGljLTIwMjQ
+2024-11-18T14:47:23,538+0700 [79196 54] com.newrelic INFO: Agent 79196@Duongs-MacBook-Pro.local/my-newrelic-2024 connected to collector.newrelic.com:443
+2024-11-18T14:47:23,539+0700 [79196 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1744365/applications/1031823130
+2024-11-18T14:47:23,540+0700 [79196 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:47:23,540+0700 [79196 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:47:23,540+0700 [79196 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:47:23,542+0700 [79196 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:47:23,543+0700 [79196 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T14:47:23,543+0700 [79196 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T14:47:23,543+0700 [79196 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T14:47:23,546+0700 [79196 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T14:47:25,370+0700 [79196 54] com.newrelic INFO: Real user monitoring is enabled for application my-newrelic-2024. Auto instrumentation is enabled.
+2024-11-18T14:47:25,371+0700 [79196 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T15:31:07,270+0700 [79196 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-18T15:31:07,322+0700 [79196 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@f62c0fd tried to finish but ServiceManager not started
+2024-11-18T15:31:13,834+0700 [79196 82] com.newrelic INFO: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Operation timed out). Please check your network / proxy settings.
+2024-11-18T15:31:15,172+0700 [79196 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-11-18T15:31:26,042+0700 [79301 1] com.newrelic INFO: Writing to New Relic log file: /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/libs/logs/newrelic_agent.log
+2024-11-18T15:31:26,042+0700 [79301 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 21.0.4
+2024-11-18T15:31:26,042+0700 [79301 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-11-18T15:31:26,042+0700 [79301 1] com.newrelic INFO: OS Mac OS X version 15.1 arch aarch64
+2024-11-18T15:31:26,042+0700 [79301 1] com.newrelic INFO: Agent Host: Duongs-MacBook-Pro.local IP: 127.0.0.1
+2024-11-18T15:31:26,043+0700 [79301 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-18T15:31:26,324+0700 [79301 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-18T15:31:26,750+0700 [79301 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-18T15:31:26,902+0700 [79301 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-18T15:31:26,957+0700 [79301 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-18T15:31:26,968+0700 [79301 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/newrelic.yml
+2024-11-18T15:31:26,970+0700 [79301 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-18T15:31:26,970+0700 [79301 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1b4fb997
+2024-11-18T15:31:26,970+0700 [79301 1] com.newrelic INFO: Premain startup complete in 1,383ms
+2024-11-18T15:31:26,971+0700 [79301 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-18T15:31:28,713+0700 [79301 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-18T15:31:31,986+0700 [79301 54] com.newrelic INFO: Host name is Duongs-MacBook-Pro.local, display host Duongs-MacBook-Pro.local for application my-newrelic-2024
+2024-11-18T15:31:31,991+0700 [79301 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T15:31:33,597+0700 [79301 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-18T15:31:34,660+0700 [79301 54] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-18T15:31:34,660+0700 [79301 54] com.newrelic INFO: Agent run id: BaOKFEXF4zERABqd7T1_nQtnOvu8AAIBAAAnIQEAATXFAgQ9gF8aAwAGOC4xNi4wABhEdW9uZ3MtTWFjQm9vay1Qcm8ubG9jYWwAEG15LW5ld3JlbGljLTIwMjQ
+2024-11-18T15:31:34,661+0700 [79301 54] com.newrelic INFO: Agent 79301@Duongs-MacBook-Pro.local/my-newrelic-2024 connected to collector.newrelic.com:443
+2024-11-18T15:31:34,661+0700 [79301 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1744365/applications/1031823130
+2024-11-18T15:31:34,662+0700 [79301 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T15:31:34,662+0700 [79301 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T15:31:34,662+0700 [79301 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T15:31:34,664+0700 [79301 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T15:31:34,666+0700 [79301 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-18T15:31:34,666+0700 [79301 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-18T15:31:34,666+0700 [79301 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-18T15:31:34,667+0700 [79301 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-18T15:31:35,153+0700 [79301 54] com.newrelic INFO: Real user monitoring is enabled for application my-newrelic-2024. Auto instrumentation is enabled.
+2024-11-18T15:31:35,156+0700 [79301 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-18T16:27:07,923+0700 [79301 77] com.newrelic INFO: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Operation timed out). Please check your network / proxy settings.
+2024-11-18T16:27:07,933+0700 [79301 77] com.newrelic INFO: Remote metric_data call failed : java.net.UnknownHostException: collector.newrelic.com: nodename nor servname provided, or not known.
+2024-11-18T16:27:07,933+0700 [79301 77] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.UnknownHostException: collector.newrelic.com: nodename nor servname provided, or not known
+2024-11-18T17:12:09,539+0700 [79301 77] com.newrelic INFO: Successfully reconnected to the New Relic data service.
+2024-11-18T17:12:49,945+0700 [79301 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-18T17:12:49,963+0700 [79301 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@79977a2f tried to finish but ServiceManager not started
+2024-11-18T17:12:50,623+0700 [79301 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-11-19T13:13:15,875+0700 [83122 1] com.newrelic INFO: Writing to New Relic log file: /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/libs/logs/newrelic_agent.log
+2024-11-19T13:13:15,876+0700 [83122 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 21.0.4
+2024-11-19T13:13:15,876+0700 [83122 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-11-19T13:13:15,876+0700 [83122 1] com.newrelic INFO: OS Mac OS X version 15.1 arch aarch64
+2024-11-19T13:13:15,876+0700 [83122 1] com.newrelic INFO: Agent Host: Duongs-MacBook-Pro.local IP: 127.0.0.1
+2024-11-19T13:13:15,876+0700 [83122 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-19T13:13:16,179+0700 [83122 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-19T13:13:16,739+0700 [83122 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-19T13:13:16,877+0700 [83122 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-19T13:13:16,929+0700 [83122 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-19T13:13:16,940+0700 [83122 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/newrelic.yml
+2024-11-19T13:13:16,942+0700 [83122 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-19T13:13:16,942+0700 [83122 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1b4fb997
+2024-11-19T13:13:16,942+0700 [83122 1] com.newrelic INFO: Premain startup complete in 1,618ms
+2024-11-19T13:13:16,943+0700 [83122 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-19T13:13:18,567+0700 [83122 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-19T13:13:21,949+0700 [83122 54] com.newrelic INFO: Host name is Duongs-MacBook-Pro.local, display host Duongs-MacBook-Pro.local for application my-newrelic-2024
+2024-11-19T13:13:21,950+0700 [83122 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-19T13:13:22,845+0700 [83122 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-19T13:13:24,602+0700 [83122 54] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-19T13:13:24,602+0700 [83122 54] com.newrelic INFO: Agent run id: BXszOL7CykBCABqd7T1_nQtnPCzkAAIBAAAnIQEAAUSyAgQ9gF8aAwAGOC4xNi4wABhEdW9uZ3MtTWFjQm9vay1Qcm8ubG9jYWwAEG15LW5ld3JlbGljLTIwMjQ
+2024-11-19T13:13:24,603+0700 [83122 54] com.newrelic INFO: Agent 83122@Duongs-MacBook-Pro.local/my-newrelic-2024 connected to collector.newrelic.com:443
+2024-11-19T13:13:24,603+0700 [83122 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1744365/applications/1031823130
+2024-11-19T13:13:24,604+0700 [83122 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-19T13:13:24,604+0700 [83122 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-19T13:13:24,604+0700 [83122 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-19T13:13:24,605+0700 [83122 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-19T13:13:24,606+0700 [83122 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-19T13:13:24,607+0700 [83122 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-19T13:13:24,607+0700 [83122 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-19T13:13:24,608+0700 [83122 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-19T13:13:25,811+0700 [83122 54] com.newrelic INFO: Real user monitoring is enabled for application my-newrelic-2024. Auto instrumentation is enabled.
+2024-11-19T13:13:25,811+0700 [83122 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-19T13:26:07,595+0700 [83122 77] com.newrelic INFO: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Operation timed out). Please check your network / proxy settings.
+2024-11-19T14:11:02,336+0700 [83122 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-19T14:11:02,349+0700 [83122 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@41df8397 tried to finish but ServiceManager not started
+2024-11-19T14:11:03,068+0700 [83122 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2024-11-19T15:29:30,540+0700 [84162 1] com.newrelic INFO: Writing to New Relic log file: /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/libs/logs/newrelic_agent.log
+2024-11-19T15:29:30,541+0700 [84162 1] com.newrelic INFO: JRE vendor Amazon.com Inc. version 21.0.4
+2024-11-19T15:29:30,541+0700 [84162 1] com.newrelic INFO: JVM vendor Amazon.com Inc. OpenJDK 64-Bit Server VM version 21.0.4+7-LTS
+2024-11-19T15:29:30,541+0700 [84162 1] com.newrelic INFO: OS Mac OS X version 15.1 arch aarch64
+2024-11-19T15:29:30,541+0700 [84162 1] com.newrelic INFO: Agent Host: Duongs-MacBook-Pro.local IP: 127.0.0.1
+2024-11-19T15:29:30,541+0700 [84162 1] com.newrelic INFO: New Relic Agent v8.16.0 is initializing...
+2024-11-19T15:29:30,859+0700 [84162 33] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2024-11-19T15:29:31,456+0700 [84162 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2024-11-19T15:29:31,606+0700 [84162 1] com.newrelic INFO: Setting audit_mode to false
+2024-11-19T15:29:31,657+0700 [84162 1] com.newrelic WARN: Invalid health client type: null; returning NoOp implementation
+2024-11-19T15:29:31,669+0700 [84162 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/duong/WORKSPACE/NEWRELIC/mynewrelic/newrelic.yml
+2024-11-19T15:29:31,671+0700 [84162 1] com.newrelic INFO: New Relic Agent v8.16.0 has started
+2024-11-19T15:29:31,671+0700 [84162 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@1b4fb997
+2024-11-19T15:29:31,671+0700 [84162 1] com.newrelic INFO: Premain startup complete in 1,645ms
+2024-11-19T15:29:31,672+0700 [84162 1] com.newrelic INFO: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2024-11-19T15:29:33,397+0700 [84162 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.31
+2024-11-19T15:29:36,683+0700 [84162 54] com.newrelic INFO: Host name is Duongs-MacBook-Pro.local, display host Duongs-MacBook-Pro.local for application my-newrelic-2024
+2024-11-19T15:29:36,685+0700 [84162 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-19T15:29:37,647+0700 [84162 54] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2024-11-19T15:29:38,274+0700 [84162 54] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2024-11-19T15:29:38,274+0700 [84162 54] com.newrelic INFO: Agent run id: BcPCV3DNE0XBABqd7T1_nQtnPEzEAAIBAAAnIQEAAUjCAgQ9gF8aAwAGOC4xNi4wABhEdW9uZ3MtTWFjQm9vay1Qcm8ubG9jYWwAEG15LW5ld3JlbGljLTIwMjQ
+2024-11-19T15:29:38,275+0700 [84162 54] com.newrelic INFO: Agent 84162@Duongs-MacBook-Pro.local/my-newrelic-2024 connected to collector.newrelic.com:443
+2024-11-19T15:29:38,275+0700 [84162 54] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1744365/applications/1031823130
+2024-11-19T15:29:38,276+0700 [84162 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-19T15:29:38,276+0700 [84162 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-19T15:29:38,276+0700 [84162 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-19T15:29:38,277+0700 [84162 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-19T15:29:38,278+0700 [84162 54] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2024-11-19T15:29:38,278+0700 [84162 54] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2024-11-19T15:29:38,278+0700 [84162 54] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2024-11-19T15:29:38,281+0700 [84162 54] com.newrelic WARN: Configured Super Agent health delivery location is not a valid URI; SuperAgent integration service will not be started
+2024-11-19T15:29:39,427+0700 [84162 54] com.newrelic INFO: Real user monitoring is enabled for application my-newrelic-2024. Auto instrumentation is enabled.
+2024-11-19T15:29:39,427+0700 [84162 54] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2024-11-19T15:49:31,242+0700 [84162 77] com.newrelic INFO: A socket exception was encountered while sending data to New Relic (java.net.SocketException: Connection reset). Please check your network / proxy settings.
+2024-11-19T15:52:00,256+0700 [84162 26] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2024-11-19T15:52:00,269+0700 [84162 58] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@31e96e32 tried to finish but ServiceManager not started
+2024-11-19T15:52:00,965+0700 [84162 26] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
